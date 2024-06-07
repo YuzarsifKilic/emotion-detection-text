@@ -1,0 +1,26 @@
+<div class="container mx-auto px-40 mt-40">
+  <div class="bg-gray-100 shadow-md rounded-md px-8 pt-6 pb-8 mb-4 flex flex-col">
+    <form [formGroup]="signInForm" (ngSubmit)="predict()">
+      <div class="relative mt-2 rounded-md shadow-sm">
+        <label>Duygu Cümlesini Girin</label>
+        <input
+          type="text"
+          name="emotion"
+          id="emotion"
+          class="block mt-2 w-full rounded-md border-0 py-1.5 pl-4 pr-20 text-gray-900 ring-1 ring-inset ring-blue-500 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-blue-500 sm:text-sm sm:leading-6"
+          placeholder="Bugün hava çok güzel"
+          formControlName="emotion"
+        />
+      </div>
+      <div class="flex justify-center mt-8">
+        <button class="bg-blue-600 text-white p-2 rounded-md w-1/2 hover:bg-white hover:border-blue-600 hover:border-2 hover:text-blue-600">
+          Tahmin Et
+        </button>
+      </div>
+      <div *ngIf="firstPrediction != ''">
+        <div>{{firstPrediction}} : %{{firstPredictValue*100}}</div>
+        <div>{{secondPrediction}} : %{{secondPredictValue*100}}</div>
+      </div>
+    </form>
+  </div>
+</div>
