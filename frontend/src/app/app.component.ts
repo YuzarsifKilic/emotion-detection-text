@@ -63,7 +63,7 @@ export class AppComponent {
             } else if (this.firstPredict == "Fear") {
               this.firstPrediction = "Korkmuş";
             } else if (this.firstPredict == "Surprise") {
-              this.firstPrediction = "Şarkın";
+              this.firstPrediction = "Şaşkın";
             } else if (this.firstPredict == "disappointment") {
               this.firstPrediction = "Hayal Kırıklığı";
             }
@@ -82,7 +82,7 @@ export class AppComponent {
             } else if (this.secondPredict == "Fear") {
               this.secondPrediction = "Korkmuş";
             } else if (this.secondPredict == "Surprise") {
-              this.secondPrediction = "Şarkın";
+              this.secondPrediction = "Şaşkın";
             } else if (this.secondPredict == "disappointment") {
               this.secondPrediction = "Hayal Kırıklığı";
             }
@@ -106,7 +106,7 @@ export class AppComponent {
             } else if (this.firstPredict == "Fear") {
               this.firstPrediction = "Korkmuş";
             } else if (this.firstPredict == "Surprise") {
-              this.firstPrediction = "Şarkın";
+              this.firstPrediction = "Şaşkın";
             } else if (this.firstPredict == "disappointment") {
               this.firstPrediction = "Hayal Kırıklığı";
             }
@@ -125,7 +125,7 @@ export class AppComponent {
             } else if (this.secondPredict == "Fear") {
               this.secondPrediction = "Korkmuş";
             } else if (this.secondPredict == "Surprise") {
-              this.secondPrediction = "Şarkın";
+              this.secondPrediction = "Şaşkın";
             } else if (this.secondPredict == "disappointment") {
               this.secondPrediction = "Hayal Kırıklığı";
             }
