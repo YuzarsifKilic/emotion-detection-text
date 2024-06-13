@@ -13,8 +13,10 @@
 * Surprise
 * Disappointment
 
-### Install the required Python packages and run the Python application
 
+## Requirements
+### Setting Up and Running the Python Application
+1. Follow these steps to install the required Python packages and run the application:
 ````
 cd api
 pip install Flask==3.0.3
@@ -25,11 +27,24 @@ pip install tensorflow==2.16.1
 python api.py
 ````
 
-### Install the required Angular application packages and run the Angular application
-
+### Setting Up and Running the Angular Application
+1. Follow these steps to install the required Angular packages and run the application:
 ````
 cd frontend
 npm install -g @angular/cli
 npm install
 ng serve
 ````
+
+### Additional Information
+* The api.py file will run as a Flask-based API server.
+* The Angular application is located in the frontend directory and can be run locally with the ng serve command.
+* You can access the Angular application in your browser at http://localhost:4200.
+
+### Notes
+* When you run the ng serve command, the Angular application will be running on a local server.
+* The Python API server typically runs at http://localhost:5000.
+
+### Troubleshooting
+* If you encounter errors while installing packages, ensure that your Python and Node.js versions are up to date.
+* To avoid port conflicts, ensure that ports 5000 and 4200 are not being used by other applications.
